@@ -30,6 +30,17 @@
 
 
 
+.genericSlice {
+  background-color: #fff;
+}
+.genericSlice:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
 .jiscBanner {
   color: #fff;
   background-color: #333;

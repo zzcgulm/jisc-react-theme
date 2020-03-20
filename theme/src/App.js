@@ -68,6 +68,25 @@ function App() {
 
 
 
+        <main>
+
+
+
+          <div className="genericSlice">
+            <Container maxWidth="md">
+
+              Main
+
+            </Container>
+          </div>
+
+
+        </main>
+
+
+
+
+
         <footer className="jiscFooter">
           <h2 className="visuallyHidden">Site footer</h2>
 
