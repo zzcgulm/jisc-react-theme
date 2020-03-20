@@ -33,9 +33,14 @@
 .genericSlice {
   background-color: #fff;
 }
+
+.genericSlice:before,
 .genericSlice:after {
   content: "";
   display: table;
+} 
+
+.genericSlice:after {
   clear: both;
 }
 
@@ -46,9 +51,13 @@
   background-color: #333;
 }
 
+.jiscBanner:before,
 .jiscBanner:after {
   content: "";
   display: table;
+} 
+
+.jiscBanner:after {
   clear: both;
 }
 
@@ -58,9 +67,13 @@
   margin-top: 1.5rem;
 }
 
+.jiscFooter:before,
 .jiscFooter:after {
   content: "";
   display: table;
+} 
+
+.jiscFooter:after {
   clear: both;
 }
 
@@ -70,9 +83,13 @@
   color: #fff;
 }
 
+.jiscHeader:before,
 .jiscHeader:after {
   content: "";
   display: table;
+} 
+
+.jiscHeader:after {
   clear: both;
 }
 
