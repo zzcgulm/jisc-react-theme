@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Container } from '@material-ui/core';
+
 import './App.css';
 
 import logo from './static/images/jisc-logo.svg';
@@ -17,7 +19,7 @@ function App() {
 
         <div className="jiscBanner">
 
-          <div className="sitewideContainer">
+          <Container maxWidth="md">
 
             <a
               className="jiscLink"
@@ -31,7 +33,7 @@ function App() {
               />
             </a>
 
-          </div>
+          </Container>
 
         </div>
 
