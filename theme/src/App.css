@@ -10,6 +10,28 @@
   margin-left: auto;
 }
 
+
+
+.bg1 {
+  background-color: #fff;
+}
+.bg2 {
+  background-color: #f7f7f7;
+}
+.bg3 {
+  background-color: #f2f2f2;
+}
+.bg4 {
+  background-color: #e5e5e5;
+}
+.bg5 {
+  background-color: #d9d9d9;
+}
+.bg18 {
+  background-color: #333;
+}
+
+
 .jiscLink {
 }
 
@@ -17,4 +39,28 @@
   display: block;
   width: 2.25rem;
   height: 2.25rem;
+}
+
+
+
+.linkList {
+  padding-left: 0;
+  list-style: none;
+}
+
+.linkListItem {
+}
+
+
+
+.linkListInline {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: -2rem;
+  list-style: none;
+}
+
+.linkListInlineItem {
+  margin-left: 2rem;
 }
