@@ -21,6 +21,9 @@
 .bg5 {
   background-color: #d9d9d9;
 }
+.bg14 {
+  background-color: #666;
+}
 .bg18 {
   background-color: #333;
 }
@@ -45,6 +48,18 @@
 }
 
 .jiscFooter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.jiscHeader {
+  color: #fff;
+}
+
+.jiscHeader:after {
   content: "";
   display: table;
   clear: both;

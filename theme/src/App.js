@@ -24,7 +24,7 @@ function App() {
 
 
 
-        <header className="App-header">
+        <header className="jiscMasthead" aria-label="Jisc masthead">
 
 
 
@@ -50,6 +50,18 @@ function App() {
 
 
 
+        </header>
+
+
+
+
+
+        <header className="jiscHeader bg14" aria-label="Site header">  
+          <Container maxWidth="md">
+            <Typography variant="h2" component="h1" gutterBottom="true">
+              Jisc React theme
+            </Typography>
+          </Container>
         </header>
 
 
