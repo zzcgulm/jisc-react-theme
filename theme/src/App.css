@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+.sitewideContainer {
+  max-width: 61.875em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.bg1 {
+  background-color: #fff;
+}
+.bg2 {
+  background-color: #f7f7f7;
+}
+.bg3 {
+  background-color: #f2f2f2;
+}
+.bg4 {
+  background-color: #e5e5e5;
+}
+.bg5 {
+  background-color: #d9d9d9;
+}
+.bg14 {
+  background-color: #666;
+}
+.bg18 {
+  background-color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.genericSlice {
+  background-color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.genericSlice:before,
+.genericSlice:after {
+  content: "";
+  display: table;
+} 
+
+.genericSlice:after {
+  clear: both;
+}
+
+
+
+.jiscBanner {
+  color: #fff;
+  background-color: #333;
+}
+
+.jiscBanner:before,
+.jiscBanner:after {
+  content: "";
+  display: table;
+} 
+
+.jiscBanner:after {
+  clear: both;
+}
+
+
+
+.jiscFooter {
+  margin-top: 1.5rem;
+}
+
+.jiscFooter:before,
+.jiscFooter:after {
+  content: "";
+  display: table;
+} 
+
+.jiscFooter:after {
+  clear: both;
+}
+
+
+
+.jiscHeader {
+  color: #fff;
+}
+
+.jiscHeader:before,
+.jiscHeader:after {
+  content: "";
+  display: table;
+} 
+
+.jiscHeader:after {
+  clear: both;
+}
+
+
+
+.jiscLink {
+}
+
+
+
+.jiscLogo {
+  display: block;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+
+
+.linkList {
+  padding-left: 0;
+  list-style: none;
+}
+
+.linkListItem {
+}
+
+
+
+.linkListInline {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 0;
+  margin-top: 0;
+  margin-left: -2rem;
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.linkListInlineItem {
+  margin-left: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.visuallyHidden {
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
 }
