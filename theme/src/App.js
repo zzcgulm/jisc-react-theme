@@ -3,6 +3,7 @@ import React from 'react';
 import { MuiThemeProvider, withStyles } from "@material-ui/core";
 import theme from './config/theme.styles';
 
+import { Button } from '@material-ui/core';
 import { Container } from '@material-ui/core';
 import { Grid } from '@material-ui/core';
 import { Link } from '@material-ui/core';
@@ -75,7 +76,54 @@ function App() {
           <div className="genericSlice">
             <Container maxWidth="md">
 
-              Main
+
+
+              <Typography variant="h1">Typography</Typography>
+
+              <Typography variant="h1">Heading 1</Typography>
+              <Typography variant="h2">Heading 2</Typography>
+              <Typography variant="h3">Heading 3</Typography>
+              <Typography variant="h4">Heading 4</Typography>
+              <Typography variant="h5">Heading 5</Typography>
+              <Typography variant="h6">Heading 6</Typography>
+              <Typography variant="subtitle1">Subtitle 1</Typography>
+              <Typography variant="subtitle2">Subtitle 2</Typography>
+              <Typography variant="body1">Body 1</Typography>
+              <Typography variant="body2">Body 2</Typography>
+
+
+
+              <Typography variant="h1">Colour palette</Typography>
+
+
+
+              <Typography variant="h1">
+                <abbr title="User interface">UI</abbr>
+              </Typography>
+
+              <ul className="linkListInline">
+                <li className="linkListInlineItem">
+                  <Button className="button buttonPrimary" color="Primary" variant="contained">Primary button button</Button>
+                </li>
+                <li className="linkListInlineItem">
+                  <Button className="button buttonSecondary" color="Secondary" variant="contained">Secondary button button</Button>
+                </li>
+                <li className="linkListInlineItem">
+                  <Button className="button buttonGhost" color="primary" variant="outlined">Ghost button button</Button>
+                </li>
+              </ul>
+
+              <ul className="linkListInline">
+                <li className="linkListInlineItem">
+                  <Button className="button buttonPrimary" color="Primary" href="TODO" component="a" variant="contained">Primary button link</Button>
+                </li>
+                <li className="linkListInlineItem">
+                  <Button className="button buttonSecondary" color="Secondary" href="TODO" component="a" variant="contained">Secondary button link</Button>
+                </li>
+                <li className="linkListInlineItem">
+                  <Button className="button buttonGhost" color="primary" href="TODO" component="a" variant="outlined">Ghost button link</Button>
+                </li>
+              </ul>
 
             </Container>
           </div>
@@ -94,7 +142,7 @@ function App() {
 
           <section className="bg4">
 
-            <Container maxWidth="md">
+            <Container>
               <Grid container spacing={2}>
                 <Grid item sm={6}>
 
@@ -158,10 +206,10 @@ function App() {
 
 
 
-          <section className="bg5">
+          <section className="bg2">
 
-            <Container maxWidth="md">
-              <Grid container spacing={2}>
+            <Container>
+              <Grid container spacing={5}>
                 <Grid item sm={6}>
 
                   <h3 className="visuallyHidden">About Jisc</h3>
